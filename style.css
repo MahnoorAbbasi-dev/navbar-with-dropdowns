@@ -1,23 +1,24 @@
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
-/* body{
-    background-image: url(https://images.unsplash.com/photo-1548263594-a71ea65a8598?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80);
+body {
+    /* background-image: url(https://images.unsplash.com/photo-1548263594-a71ea65a8598?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80); */
     /* background-repeat: no-repeat; */
-    background-size: cover;
-    position: center; 
+    /* background-size: cover;
+    position: center;  */
+    background-color: black;
 }
- */
-.navbar{
+
+.navbar {
 
     background-color: rgba(247, 187, 172, 0.61);
-    text-align:right;
+    text-align: right;
     position: sticky;
     /* border-radius: 15px; */
 
@@ -30,13 +31,14 @@
     color: black;
 
 }
+
 .navbar ul li {
     margin: 10px;
     padding: 10px;
 
 }
 
-.navbar ul li a{
+.navbar ul li a {
     /* text-decoration: none; */
     color: black;
 }
@@ -47,19 +49,19 @@
 
 }
 
-.navbar .fa{
+.navbar .fa {
     margin-right: 8px;
 }
 
 /* first dropdown */
-.firstDD{
+.firstDD {
     display: none;
 }
 
-.navbar ul li:hover .firstDD{
+.navbar ul li:hover .firstDD {
     display: inline-block;
     position: absolute;
-    background-color:rgb(247, 187, 172, 0.61);
+    background-color: rgb(247, 187, 172, 0.61);
     margin-top: 30px;
     margin-left: -120px;
     /* margin-right: 100px; */
@@ -85,14 +87,14 @@
 }
 
 
-.secondDD{
+.secondDD {
     display: none;
 }
 
-.hoverme:hover .secondDD{
+.hoverme:hover .secondDD {
     display: inline-block;
     position: absolute;
-    background-color:rgb(247, 187, 172, 0.61);
+    background-color: rgb(247, 187, 172, 0.61);
     margin-top: -5px;
     margin-left: -230px;
     padding: 5px;
@@ -111,11 +113,11 @@ h2 {
     text-align: center;
 }
 
-p{
+p {
     text-align: center;
     font-family: 'Caveat', cursive;
     font-family: 'Pacifico', cursive;
-    background-color:rgba(247, 187, 172, 0.459);
+    background-color: rgba(247, 187, 172, 0.459);
     width: 60%;
     /* height: 40%; */
     margin: auto;
@@ -125,7 +127,7 @@ p{
 }
 
 /* footer */
-footer{
+footer {
     margin: auto;
     padding: 10px;
 }
